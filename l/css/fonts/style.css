@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'iconosInmuebles';
+  src:
+    url('fonts/iconosInmuebles.ttf?sdacqo') format('truetype'),
+    url('fonts/iconosInmuebles.woff?sdacqo') format('woff'),
+    url('fonts/iconosInmuebles.svg?sdacqo#iconosInmuebles') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconosInmuebles' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-agua:before {
+  content: "\e900";
+}
+.icon-amueblado:before {
+  content: "\e901";
+}
+.icon-bao:before {
+  content: "\e902";
+}
+.icon-basura:before {
+  content: "\e903";
+}
+.icon-bomberos:before {
+  content: "\e904";
+}
+.icon-categoria:before {
+  content: "\e905";
+}
+.icon-celular:before {
+  content: "\e906";
+}
+.icon-cocina:before {
+  content: "\e907";
+}
+.icon-comedor:before {
+  content: "\e908";
+}
+.icon-cuartos:before {
+  content: "\e909";
+}
+.icon-deposito:before {
+  content: "\e90a";
+}
+.icon-direccion:before {
+  content: "\e90b";
+}
+.icon-escuela:before {
+  content: "\e90c";
+}
+.icon-estacionamiento:before {
+  content: "\e90d";
+}
+.icon-experiencia:before {
+  content: "\e90e";
+}
+.icon-facebook:before {
+  content: "\e90f";
+}
+.icon-gas:before {
+  content: "\e910";
+}
+.icon-hospital:before {
+  content: "\e911";
+}
+.icon-info:before {
+  content: "\e912";
+}
+.icon-inicio:before {
+  content: "\e913";
+}
+.icon-inmuebles:before {
+  content: "\e914";
+}
+.icon-internet:before {
+  content: "\e915";
+}
+.icon-limp_habit:before {
+  content: "\e916";
+}
+.icon-luz:before {
+  content: "\e917";
+}
+.icon-mercado:before {
+  content: "\e918";
+}
+.icon-opiniones:before {
+  content: "\e919";
+}
+.icon-pago:before {
+  content: "\e91a";
+}
+.icon-policia:before {
+  content: "\e91b";
+}
+.icon-propietario:before {
+  content: "\e91c";
+}
+.icon-sala:before {
+  content: "\e91d";
+}
+.icon-serv_alim:before {
+  content: "\e91e";
+}
+.icon-servicios:before {
+  content: "\e91f";
+}
+.icon-telefono:before {
+  content: "\e920";
+}
+.icon-ubicacion:before {
+  content: "\e921";
+}
+.icon-whatsapp:before {
+  content: "\e922";
+}

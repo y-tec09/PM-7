@@ -1,0 +1,379 @@
+<html lang="es-mx">
+<head>
+	<title>Casas y departamentos</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Y-TEC">
+	<meta name="description" content="Plantilla de página web enfocada en la promoción de ofertas de renta de casas, departamentos y habitaciones.">
+	<!--Propiedades facebook-->
+	<meta property="og:image" content="/card_fb.png" >
+	<meta property="og:description" content="Plantilla de página web enfocada en la promoción de ofertas de renta de casas, departamentos y habitaciones." >
+	<meta property="og:title" content="Y-TEC" >
+	<!--Propiedades twitter-->
+	<meta name="twitter:title" content="Y-TEC">
+	<meta name="twitter:image" content="/card_tw.png">
+	<meta name="twitter:description" content="Plantilla de página web enfocada en la promoción de ofertas de renta de casas, departamentos y habitaciones.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../l/css/imgs/LOGO_01.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../l/css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<body oncontextmenu="return false">
+	<div class="cont-sec" id="cont-sec">
+		<header class="header" id="header">
+			<div id="m-princ" class="marco_princ">
+				<section class="cont-menu">
+					<div class="div-m-elements-logo" id="">
+						<a href="index.php"><img src="../l/css/imgs/LOGO_01.png" width="40px" height="40px" loading="lazy"></a>
+					</div>
+					<nav>
+      					<input type="checkbox" id="check">
+      					<label for="check" class="checkbtn">
+        					<span class="icon icon-menu"></span>
+      					</label>
+      					<ul>
+        					<li><a class="active" href="#"><span class="icon icon-inicio"></span> Inicio</a></li>
+        					<li><a href="#sec_01"><span class="icon icon-inmuebles"></span> Inmbuebles</a></li>
+        					<li><a href="#sec_02"><span class="icon icon-servicios"></span> Servicios</a></li>
+        					<li><a href="#sec_03"><span class="icon icon-ubicacion"></span> Ubicación</a></li>
+        					<li><a href="#sec_04"><span class="icon icon-info"></span> Info</a></li>
+        					<!--<li><a href="#sec_05"><span class="icon icon-opiniones"></span> Opiniones</a></li>-->
+      					</ul>
+    				</nav>
+				</section>
+				<div class="hero-text">
+    				<h1 class="encabezado">¡Casas, departamentos, cuartos y mucho más...!</h1>
+    				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Natus, eaque eos, molestias at ullam id, suscipit dignissimos perferendis laborum quae exercitationem asperiores, cumque reprehenderit labore. Iusto eius modi accusantium earum.</p>
+    				<a href="#anuncios"><button>INMUEBLES</button></a>
+  				</div>
+			</div>
+		</header>
+		<main class="main" id="main">
+			<section class="sec_01" id="sec_01">
+				<div class="b_01" id="b_01">
+					<p>OPCIONES DE INMUEBLES</p>
+				</div>
+				<div class="b_02" id="b_02">
+					<div class="c_1" id="c_1">
+						<div class="flip-card-frente">
+							<img src="../l/css/imgs/INMU_01.jpg" alt="anunc_01" loading="lazy">
+							<article class="card_01" id="card_01">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</article>
+							<button class="mostdet" onclick="mostSec0()">MÁS DETALLES</button>
+						</div>
+						<div id="secDet0" class="detalles">
+							<button class="ocultdet" onclick="ocultSec0()">MENOS DETALLES</button>
+							<table>
+  								<!--<tr>
+    								<th style="width:50%">Servicios</th>
+    								<th>Incluido</th>
+  								</tr>-->
+  								<tr>
+    								<td><span class="icon icon-categoria"></span> CATEGORIA: DEPARTAMENTO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-cocina"></span> COCINA: INCLUIDO</td>
+    								<td><i class="fa fa-check"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-sala"></span> SALA: INCLUIDO</td>
+    								<td><i class="fa fa-check"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-comedor"></span> COMEDOR: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+	    							<td><span class="icon icon-bao"></span> BAÑO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-cuartos"></span> CUARTO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-estacionamiento"></span> ESTACIONAMIENTO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="c_2" id="c_2">
+						<div class="flip-card-frente">
+							<img src="../l/css/imgs/INMU_02.jpg" alt="anunc_02" loading="lazy">
+							<article class="card_01" id="card_01">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</article>
+							<button class="mostdet" onclick="mostSec1()">MÁS DETALLES</button>
+						</div>
+						<div id="secDet1" class="detalles">
+							<button class="ocultdet" onclick="ocultSec1()">MENOS DETALLES</button>
+							<table>
+  								<!--<tr>
+    								<th style="width:50%">Servicios</th>
+    								<th>Incluido</th>
+  								</tr>-->
+  								<tr>
+    								<td><span class="icon icon-categoria"></span> CATEGORIA: DEPARTAMENTO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-cocina"></span> COCINA: INCLUIDO</td>
+    								<td><i class="fa fa-check"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-sala"></span> SALA: INCLUIDO</td>
+    								<td><i class="fa fa-check"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-comedor"></span> COMEDOR: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+	    							<td><span class="icon icon-bao"></span> BAÑO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-cuartos"></span> CUARTO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-estacionamiento"></span> ESTACIONAMIENTO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="c_3" id="c_3">
+						<div class="flip-card-frente">
+							<img src="../l/css/imgs/INMU_03.jpg" alt="anunc_03" loading="lazy">
+							<article class="card_01" id="card_01">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</article>
+							<button class="mostdet" onclick="mostSec2()">MÁS DETALLES</button>
+						</div>
+						<div id="secDet2" class="detalles">
+							<button class="ocultdet" onclick="ocultSec2()">MENOS DETALLES</button>
+							<table>
+  								<!--<tr>
+    								<th style="width:50%">Servicios</th>
+    								<th>Incluido</th>
+  								</tr>-->
+  								<tr>
+    								<td><span class="icon icon-categoria"></span> CATEGORIA: DEPARTAMENTO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-cocina"></span> COCINA: INCLUIDO</td>
+    								<td><i class="fa fa-check"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-sala"></span> SALA: INCLUIDO</td>
+    								<td><i class="fa fa-check"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-comedor"></span> COMEDOR: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+	    							<td><span class="icon icon-bao"></span> BAÑO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-cuartos"></span> CUARTO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+  								<tr>
+    								<td><span class="icon icon-estacionamiento"></span> ESTACIONAMIENTO: INCLUIDO</td>
+    								<td><i class="fa fa-remove"></i></td>
+  								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sec_02" id="sec_02">
+				<div class="b_03" id="b_03">
+					<img src="../l/css/imgs/SERVS_01.jpg" alt="anunc_01" loading="lazy">
+					<div class="c_4" id="c_4">
+						<div class="c_4-1" id="c_4-1">
+							<p>SERVICIOS BASICOS</p>
+						</div>
+						<article>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae unde minus pariatur ea iste, excepturi? Natus repellat vitae a, voluptas aut nulla sint sapiente mollitia numquam repudiandae cumque, voluptate quos.
+						</article>
+						<table>
+  							<tr>
+    							<th style="width:50%">Servicios</th>
+    							<th>Incluido</th>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-luz"></span> LUZ</td>
+    							<td><i class="fa fa-remove"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-agua"></span> AGUA</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  								<tr>
+    							<td><span class="icon icon-gas"></span> GAS</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-internet"></span> INTERNET</td>
+    							<td><i class="fa fa-remove"></i></td>
+  							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="b_04" id="b_04">
+					<img src="../l/css/imgs/SERVS_02.jpg" alt="anunc_01" loading="lazy">
+					<div class="c_4" id="c_4">
+						<div class="c_4-1" id="c_4-1">
+							<p>SERVICIOS ADICIONALES</p>
+						</div>
+						<article>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae unde minus pariatur ea iste, excepturi? Natus repellat vitae a, voluptas aut nulla sint sapiente mollitia numquam repudiandae cumque, voluptate quos.
+						</article>
+						<table>
+  							<tr>
+    							<th style="width:50%">Servicios</th>
+    							<th>Incluido</th>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-amueblado"></span> AMUEBLADO</td>
+    							<td><i class="fa fa-remove"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-limp_habit"></span> LIMPIEZA HABITACIÓN</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  								<tr>
+    							<td><span class="icon icon-serv_alim"></span> SERVICIO ALIMENTICIO</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+						</table>
+					</div>
+				</div>
+			</section>
+			<section class="sec_03" id="sec_03">
+				<div class="b_05" id="b_05"></div>
+				<div class="b_06" id="b_06">
+					<div class="c_5" id="c_5">
+						<div class="c_4-1" id="c_4-1">
+							<p class="linea">DIRECCIÓN</p>
+						</div>
+						<article>
+							<p><span class="icon icon-ubicacion" id=""></span> Av Ejemplo #123, colonia centro.</p><br/>
+						</article>
+					</div>
+					<div class="c_6" id="c_6">
+						<div class="c_4-1" id="c_4-1">
+							<p class="linea">SERVICIOS CERCANOS</p>
+						</div>
+						<article>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae unde minus pariatur ea iste, excepturi? Natus repellat vitae a, voluptas aut nulla sint sapiente mollitia numquam repudiandae cumque, voluptate quos.
+						</article>
+						<table>
+  							<tr>
+    							<th style="width:50%">Servicios</th>
+    							<th>Incluido</th>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-escuela" id=""></span> ESCUELA</td>
+    							<td><i class="fa fa-remove"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-hospital" id=""></span> HOSPITAL</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-mercado" id=""></span> CENTRO COMERCIAL</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-policia" id=""></span> POLICIA</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-bomberos" id=""></span> BOMBEROS</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+						</table>
+					</div>
+				</div>
+			</section>
+			<section class="sec_04" id="sec_04">
+				<div class="b_07" id="b_07">
+					<div class="c_7" id="c_7">
+						<div class="c_4-1" id="c_4-1">
+							<p class="linea">INFORMACIÓN ADICIONAL</p>
+						</div>
+						<article>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae unde minus pariatur ea iste, excepturi? Natus repellat vitae a, voluptas aut nulla sint sapiente mollitia numquam repudiandae cumque, voluptate quos.
+						</article>
+						<table>
+  							<tr>
+    							<th style="width:50%">Servicios</th>
+    							<th>Incluido</th>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-propietario" id=""></span> <b>PROPIETARIO:</b> PANCHO LOPEZ</td>
+    							<td><i class="fa fa-remove"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-experiencia" id=""></span> <b>EXPERIENCIA: </b> 5 AÑOS DE EXPERIENCIA </td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-pago" id=""></span> <b>PLAN DE PAGO: </b> PAGO MENSUAL </td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+  							<tr>
+    							<td><span class="icon icon-deposito" id=""></span> <b>DEPOSITO: </b> PAGO JUNTO LA PRIMERA RENTA</td>
+    							<td><i class="fa fa-check"></i></td>
+  							</tr>
+						</table>
+					</div>
+					<div class="c_8" id="c_8"></div>
+				</div>
+				<!--<div class="b_08" id="b_08">
+					<div class="c_9" id="c_9">
+						<div class="bar_soc" id="bar_soc">
+  							<a href="#"><span class="icon icon-telefono"></span></a> 
+  							<a href="#"><span class="icon icon-facebook"></span></a> 
+  							<a href="#"><span class="icon icon-whatsapp"></span></a>
+						</div>
+					</div>
+					<div class="c_10" id="c_10"></div>
+				</div>-->
+			</section>
+			<section class="sec_05" id="sec_05">
+				<div class="b_010" id="b_010">
+					
+				</div>
+			</section>
+			<section class="sec_06" id="sec_06">
+				
+			</section>
+		</main>
+		<footer class="footer" id="footer">
+			<div class="info-neg">
+				<img src="../l/css/imgs/LOGO_01.png" alt="Logo">
+				<p>CASAS Y DEPARTAMENTOS</p>
+			</div>
+			<div class="marca-agua" id="marca-agua">
+				<a href="#">
+					<img src="../l/css/imgs/logo-2.png" alt="logo-compañia" width="20px">
+				</a>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="../l/js/menu-responsive.js"></script>
+	<script type="text/javascript" src="../l/js/mostr_ocult.js"></script>
+</body>
+</html>
